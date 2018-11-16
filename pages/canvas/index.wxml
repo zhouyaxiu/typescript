@@ -1,0 +1,22 @@
+<!-- index.wxml -->
+<!-- <view class="container"> -->
+  <!-- <view class="canvas_area">
+    <canvas canvas-id="bgCanvas" style="position:absolute;top:0;height:400rpx;"></canvas>
+    <canvas bindtouchstart="bindtouchstart" bindtouchmove="bindtouchmove" bindtouchend="bindtouchend" canvas-id="Canvas" binderror="canvasIdErrorCallback" bindtap="bindtap" bindlongpress="bindlongpress" style="left:{{left}}px;top:{{top}}px;"></canvas>
+  </view>
+  <view class="canvas_tools">
+    <view class="box_box1" bindtap="save">保存</view>
+    <view class="box_box1" bindtap="download">下载</view>
+    <view class="box_box1" bindtap="penselect" data-param="6">画笔1</view>
+    <view class="box_box2" bindtap="penselect" data-param="20">画笔2</view>
+    <view class="box_box3" bindtap="colorselect" data-param="#fe0000">颜色1</view>
+    <view class="box_box4" bindtap="colorselect" data-param="#ff9900">颜色2</view>
+    <view class="box_box5" bindtap="clear">橡皮擦</view>
+    <view class="box_box5" bindtap="recover">撤销</view>
+    <view class="box_box5" bindtap="cancel">清除</view>
+  </view> -->
+  <view>当前为y:{{alpha}},屏幕朝向:{{screen}}</view>
+  <view bindtap='startScreen'>开始监听</view>
+  <view bindtap='endScreen'>结束监听</view>
+  <!-- <cover-image class="savePng" src="{{savePng}}" wx:if="{{savePng}}"></cover-image> -->
+<!-- </view> -->

@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas 
+    bindtouchstart="bindtouchstart" 
+    bindtouchmove="bindtouchmove" 
+    bindtouchend="bindtouchend"
+    canvas-id="Canvas" 
+    binderror="canvasIdErrorCallback" 
+    bindtap="bindtap"
+    bindlongpress="bindlongpress"
+    style="left:{{left}}px;top:{{top}}px;">
+   </canvas>
+   <cover-view class="btn">
+     <button bindtap="ellipse">ellipse</button>
+     <!-- <button bindtap="save">保存</button>
+     <button bindtap="download">下载</button> -->
+     <button bindtap="cancel">涂鸦</button>
+     <button bindtap="penselect" data-param="6">画笔1</button>
+     <button bindtap="penselect" data-param="20">画笔2</button>
+     <button bindtap="colorselect" data-param="#fe0000">颜色1</button>
+     <button bindtap="colorselect" data-param="#ff9900">颜色2</button>
+     <button bindtap="cancel">撤销</button>
+     <button bindtap="clear">清除橡皮擦</button>
+   </cover-view>
+   <!-- <cover-image class="savePng" src="{{savePng}}" wx:if="{{savePng}}"></cover-image> -->
+</view>
